@@ -23,7 +23,7 @@ smiles = [
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-    bot.reply_to(message, 'Привет world')
+    bot.reply_to(message, 'Hello world')
 
 
 @bot.message_handler(func=lambda message: True)
